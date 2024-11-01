@@ -1,35 +1,32 @@
 {
-  "logs": "/var/log/pufferpanel",
+  "daemon": {
+    "data": {
+      "root": "/content/drive/MyDrive/minecraft/panel"
+    }
+  },
+  "logs": "/content/drive/MyDrive/minecraft/panel/logs",
   "panel": {
     "database": {
       "dialect": "sqlite3",
-      "url": "file:/var/lib/pufferpanel/database.db?cache=shared"
+      "url": "file:/content/drive/MyDrive/minecraft/panel/database.db?cache=shared"
     },
+    "email": {
+      "provider": ""
+    },
+    "registrationenabled": true,
+    "sessionkey": "4a759d5d4f503c6b72e89685cae7d7f761a18da9021580e1bb4efe6550b7bc5a",
+    "settings": {
+      "companyname": "Minecolab improved",
+      "defaulttheme": "PufferPanel",
+      "masterurl": "http://localhost:2000",
+      "themesettings": "{\"mode\":\"mode-auto\",\"color\":\"#07a7e3\",\"serverTypeDisplay\":\"server-type-icon\",\"listType\":\"list-type-grid\"}"
+    },
+    "token": "rgu7+VlRsXx/E/HOFwrptJEiuaWv1JdgcZ37eoxBWIw=",
     "web": {
-      "files": "/var/www/pufferpanel"
-    }
-  },
-  "daemon": {
-    "data": {
-      "cache": "/var/lib/pufferpanel/cache",
-      "servers": "/var/lib/pufferpanel/servers",
-      "binaries": "/var/lib/pufferpanel/binaries"
+      "files": "/content/drive/MyDrive/minecraft/panel/www"
     }
   },
   "web": {
-    "host": "0.0.0.0:8080"
-  }
-},
-"panel": {
-    "email": {
-      "provider": "smtp",
-      "from": "josue20camacaro@gmail.com",
-      "host": "127.0.1:25947",
-      "username": "Villegas21j",
-      "password": "33305219J",
-      "provider": "mailgun",
-      "key": "your_api_key",
-      "domain": "your_api_key"
-    }
+    "host": "0.0.0.0:2000"
   }
 }
