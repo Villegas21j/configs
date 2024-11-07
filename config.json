@@ -14,14 +14,14 @@
       "provider": ""
     },
     "registrationenabled": true,
-    "sessionkey": "4a759d5d4f503c6b72e89685cae7d7f761a18da9021580e1bb4efe6550b7bc5a",
+    "sessionkey": "",
     "settings": {
       "companyname": "Minecolab improved",
       "defaulttheme": "PufferPanel",
       "masterurl": "http://localhost:2000",
       "themesettings": "{\"mode\":\"mode-auto\",\"color\":\"#07a7e3\",\"serverTypeDisplay\":\"server-type-icon\",\"listType\":\"list-type-grid\"}"
     },
-    "token": "rgu7+VlRsXx/E/HOFwrptJEiuaWv1JdgcZ37eoxBWIw=",
+    "token": "",
     "web": {
       "files": "/content/drive/MyDrive/minecraft/panel/www"
     }
