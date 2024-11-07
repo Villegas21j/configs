@@ -1,0 +1,32 @@
+{
+  "daemon": {
+    "data": {
+      "root": "/content/drive/MyDrive/minecraft/panel"
+    }
+  },
+  "logs": "/content/drive/MyDrive/minecraft/panel/logs",
+  "panel": {
+    "database": {
+      "dialect": "sqlite3",
+      "url": "file:/content/drive/MyDrive/minecraft/panel/database.db?cache=shared"
+    },
+    "email": {
+      "provider": ""
+    },
+    "registrationenabled": true,
+    "sessionkey": "",
+    "settings": {
+      "companyname": "Minecolab improved",
+      "defaulttheme": "PufferPanel",
+      "masterurl": "http://localhost:2000",
+      "themesettings": "{\"mode\":\"mode-auto\",\"color\":\"#07a7e3\",\"serverTypeDisplay\":\"server-type-icon\",\"listType\":\"list-type-grid\"}"
+    },
+    "token": "",
+    "web": {
+      "files": "/content/drive/MyDrive/minecraft/panel/www"
+    }
+  },
+  "web": {
+    "host": "0.0.0.0:2000"
+  }
+}
