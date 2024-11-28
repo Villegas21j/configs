@@ -1,14 +1,14 @@
 {
   "daemon": {
     "data": {
-      "root": "/content/drive/MyDrive/minecraft/panel"
+      "root": "/content/drive/MyDrive/minecolab"
     }
   },
-  "logs": "/content/drive/MyDrive/minecraft/panel/logs",
+  "logs": "/content/drive/MyDrive/minecolab/logs",
   "panel": {
     "database": {
       "dialect": "sqlite3",
-      "url": "file:/content/drive/MyDrive/minecraft/panel/database.db?cache=shared"
+      "url": "file:/content/drive/MyDrive/minecolab/database.db?cache=shared"
     },
     "email": {
       "provider": ""
@@ -23,7 +23,7 @@
     },
     "token": "",
     "web": {
-      "files": "/content/drive/MyDrive/minecraft/panel/www"
+      "files": "/content/drive/MyDrive/minecolab/www"
     }
   },
   "web": {
